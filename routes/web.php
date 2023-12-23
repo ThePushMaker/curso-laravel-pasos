@@ -15,4 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+}); 
+
+Route:: get('/custom', function () {
+    $msj = 'mensaje desde el servidor';
+    
+    return view('custom', ['msj' => $msj]);
 });
