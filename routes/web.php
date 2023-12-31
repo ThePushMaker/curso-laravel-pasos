@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 contacto*/
 
+
+// desuso
 // Route::get('/', function () {
 //     return view('welcome');
 // }); 
