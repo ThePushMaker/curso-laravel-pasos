@@ -23,6 +23,8 @@ Route::get('/contacto', function () {
     return view('contacto');
 })->name('contacto');
 
+
+// prueba de envio de datos desde una variable de ruta a las vistas
 Route:: get('/custom', function () {
     $msj = 'mensaje desde el servidor';
     
