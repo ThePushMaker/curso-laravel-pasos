@@ -31,4 +31,6 @@ Route:: get('/custom', function () {
     return view('custom', ['msj' => $msj]);
 });
 
+
+// It displays a record from the database in a view.
 Route::get('/', [App\Http\Controllers\TestController::class, 'test']);
