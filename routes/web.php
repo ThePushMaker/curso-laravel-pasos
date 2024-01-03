@@ -14,11 +14,12 @@ use Illuminate\Support\Facades\Route;
 contacto*/
 
 
-// desuso
+// 
 // Route::get('/', function () {
 //     return view('welcome');
 // }); 
 
+// testing a view with a custom name
 Route::get('/contacto', function () {
     return view('contacto');
 })->name('contacto');
